@@ -1,0 +1,26 @@
+{
+  "paper": "P. M. Preiss et al., High-Contrast Interference of Ultracold Fermions, Phys. Rev. Lett. 122, 143602 (2019)",
+  "doi": "10.1103/PhysRevLett.122.143602",
+  "arxiv": "1811.12939v2",
+  "figure": "Fig. 2(a)",
+  "input_pdf_url": "https://arxiv.org/pdf/1811.12939v2",
+  "input_pdf_sha256": "661b43d4d7cb90bbf33cf39a9a55c2a37f1807f6032cb368c10944a87dcb3e97",
+  "extraction": "pdfimages -png 1811.12939v2.pdf img (Poppler 26.05.0)",
+  "digitized_intensity_csv": {
+    "file": "preiss_digitized_intensity.csv",
+    "shape": [656, 656],
+    "layout": "Headerless matrix in raster order. Columns are q1 from left to right (-3.7 to +3.7). Rows are q2 from top to bottom (+3.7 to -3.7). Both axes use pixel centers inside these bounds, in units of k/k_lat. Values are recovered colorbar intensities before normalizing over the displayed window."
+  },
+  "assets": {
+    "preiss_fig2a_native_raster.png": {
+      "embedded_image": "img-021.png",
+      "dimensions": [656, 656],
+      "sha256": "5e339d84e54a423ec55e58139a87808020603185a80369289b4cf574b6600a2d"
+    },
+    "preiss_fig2a_colorbar.png": {
+      "embedded_image": "img-025.png",
+      "dimensions": [57, 1419],
+      "sha256": "514354a7229631d387b9ff3a5ea1887566f7a8ebf0323213197ed8af927a6f68"
+    }
+  }
+}
